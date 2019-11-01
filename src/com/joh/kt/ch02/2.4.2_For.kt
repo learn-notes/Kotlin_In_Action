@@ -31,6 +31,7 @@ fun main() {
     println(downNum)
     println()
 
+    // step 步长
     val step = 1..100 step 3
     for(i in step){
         print("$i ")
