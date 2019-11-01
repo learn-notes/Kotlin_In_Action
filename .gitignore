@@ -2,3 +2,6 @@
 .out/
 .iml/
 *.iml
+*.a #
+out/production/Kotlin_In_Action/META-INF/Kotlin_In_Action.kotlin_module
+out/
