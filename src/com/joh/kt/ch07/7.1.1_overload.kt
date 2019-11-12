@@ -19,5 +19,9 @@ fun main() {
     // 等价于
     println(p1.plus(p2))
 
+    val fileN = "asd.dfg.txt"
+    println(fileN.split("."))               //[asd, dfg, txt]
+    println(fileN.split(".", limit = 2))    //[asd, dfg.txt]
+
 
 }
